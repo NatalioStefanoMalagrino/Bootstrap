@@ -13,33 +13,70 @@
 <body class="d-flex flex-column min-vh-100">
     <header>
         <section>
-            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark p-4">
-                <img class="bg-light border border-warning"
-                    src="https://1000marcas.net/wp-content/uploads/2021/06/Golds-Gym-logo.png" alt="Logo del gym">
+            <nav class="navbar navbar-expand-lg bg-dark mt-auto p-4 navbar-light">
                 <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav me-auto mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">INICIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/actividades.html">ACTIVIDADES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/prueba.html">PRUEBA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/sedes.html">SEDES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
+                    <a class="nav-link text-light" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav navbar-light">
+                            <ul class="navbar-nav me-auto">
+                                <a class="nav-link text-light" href="../pages/actividades.html">Actividades</a>
+                                <a class="nav-link text-light" href="../pages/prueba.html">Prueba</a>
+                                <a class="nav-link text-light" href="../pages/sedes.html">Sedes</a>
+                                <a class="nav-link text-light" href="../pages/contacto.html">Contacto</a>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
         </section>
     </header>
+
+    <main class="mt-auto p-5">
+        <h2 class="text-primary text-center p-4">Venga a nuestras instalaciones y disfrute de un dia de prueba</h2>
+        <section>
+            <form>
+                <div class="form-group">
+                    <br>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <br>
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
+                <div class="form-group">
+                    <br>
+                    <input type="text" class="form-control" id="telefono" placeholder="telefono">
+                </div>
+                <div class="form-group">
+                    <br>
+                    <input type="email" class="form-control" id="email" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <br>
+                    <select class="form-control" id="sede">
+                        <option>Sede</option>
+                        <option>Almagro</option>
+                        <option>Belgrano</option>
+                        <option>Palermo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <br>
+                    <textarea class="form-control" id="area de texto" rows="3"></textarea>
+                </div>
+                <div class="col-auto my-1">
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+                </div>
+            </form>
+        </section>
+    </main>
 
     <footer class="mt-auto">
         <section class="py-5 bg-dark">

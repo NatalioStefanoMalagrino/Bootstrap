@@ -13,33 +13,71 @@
 <body class="d-flex flex-column min-vh-100">
     <header>
         <section>
-            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark p-4">
-                <img class="bg-light border border-warning"
-                    src="https://1000marcas.net/wp-content/uploads/2021/06/Golds-Gym-logo.png" alt="Logo del gym">
+            <nav class="navbar navbar-expand-lg bg-dark mt-auto p-4 navbar-light">
                 <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav me-auto mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">INICIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/actividades.html">ACTIVIDADES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/prueba.html">PRUEBA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/sedes.html">SEDES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
+                    <a class="nav-link text-light" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav navbar-light">
+                            <ul class="navbar-nav me-auto">
+                                <a class="nav-link text-light" href="../pages/actividades.html">Actividades</a>
+                                <a class="nav-link text-light" href="../pages/prueba.html">Prueba</a>
+                                <a class="nav-link text-light" href="../pages/sedes.html">Sedes</a>
+                                <a class="nav-link text-light" href="../pages/contacto.html">Contacto</a>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
         </section>
     </header>
+
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://media.istockphoto.com/photos/modern-gym-picture-id492061477?b=1&k=20&m=492061477&s=612x612&w=0&h=FESyxCBM0d7FsA66pPPpzF_3CP1QJyHDlRlNKpcczIc="
+                            class="d-block w-100" alt="gimnasio, gente entrenando">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://clubaindependiente.com.ar/img/noticias/2019/img_8138.jpg"
+                            class="d-block w-100" alt="gimnasio, gente entrenando">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.purefitness.es/profesional/wp-content/uploads/xmaquinas-para-gimnasios-1024x683.jpg.pagespeed.ic.s0MJu0wjY8.jpg"
+                            class="d-block w-100" alt="gimnasio, gente entrenando">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <h2 class="text-primary text-center p-4">Al mejor precio en Buenos Aires, puedes conseguir un amplio
+                    espacio para entrenar. ¡Tu mejor versión de ti
+                    mismo te está esperando!</h2>
+        </section>
+        </div> 
+        </section>
+    </main>
 
     <footer class="mt-auto">
         <section class="py-5 bg-dark">
